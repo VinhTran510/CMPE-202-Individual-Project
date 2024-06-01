@@ -1,0 +1,81 @@
+{
+  "transactions" : [ {
+    "amount" : 1000.0,
+    "originalCurrency" : "USD",
+    "targetCurrency" : "EUR",
+    "convertedAmount" : "940.0",
+    "status" : "Success"
+  }, {
+    "amount" : 500.0,
+    "originalCurrency" : "EUR",
+    "targetCurrency" : "GBP",
+    "convertedAmount" : "430.0",
+    "status" : "Success"
+  }, {
+    "amount" : 200.0,
+    "originalCurrency" : "ABC",
+    "targetCurrency" : "USD",
+    "convertedAmount" : null,
+    "status" : "Invalid original currency code"
+  }, {
+    "amount" : 150.0,
+    "originalCurrency" : "USD",
+    "targetCurrency" : "XYZ",
+    "convertedAmount" : null,
+    "status" : "Invalid target currency code"
+  }, {
+    "amount" : 300.0,
+    "originalCurrency" : "GBP",
+    "targetCurrency" : "INR",
+    "convertedAmount" : "31194.0",
+    "status" : "Success"
+  }, {
+    "amount" : 400.0,
+    "originalCurrency" : "AUD",
+    "targetCurrency" : "CAD",
+    "convertedAmount" : "356.0",
+    "status" : "Success"
+  }, {
+    "amount" : 145.0,
+    "originalCurrency" : "CAD",
+    "targetCurrency" : "USD",
+    "convertedAmount" : "105.85",
+    "status" : "Success"
+  }, {
+    "amount" : 500.0,
+    "originalCurrency" : "CHF",
+    "targetCurrency" : "AUD",
+    "convertedAmount" : "845.0",
+    "status" : "Success"
+  }, {
+    "amount" : 600.0,
+    "originalCurrency" : "USD",
+    "targetCurrency" : "CHF",
+    "convertedAmount" : "546.0",
+    "status" : "Success"
+  }, {
+    "amount" : 700.0,
+    "originalCurrency" : "JPY",
+    "targetCurrency" : "USD",
+    "convertedAmount" : "4.55",
+    "status" : "Success"
+  }, {
+    "amount" : 1500.0,
+    "originalCurrency" : "BTC ",
+    "targetCurrency" : "INR",
+    "convertedAmount" : null,
+    "status" : "Invalid original currency code"
+  }, {
+    "amount" : 2700.0,
+    "originalCurrency" : "USD",
+    "targetCurrency" : "123",
+    "convertedAmount" : null,
+    "status" : "Invalid target currency code should not contains numbers"
+  }, {
+    "amount" : 3500.0,
+    "originalCurrency" : "677",
+    "targetCurrency" : "GBP",
+    "convertedAmount" : null,
+    "status" : "Invalid original currency code should not contains numbers"
+  } ]
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transactionList>
+    <transactions>
+        <amount>1000.0</amount>
+        <originalCurrency>USD</originalCurrency>
+        <targetCurrency>EUR</targetCurrency>
+        <convertedAmount>940.0</convertedAmount>
+        <status>Success</status>
+    </transactions>
+    <transactions>
+        <amount>500.0</amount>
+        <originalCurrency>EUR</originalCurrency>
+        <targetCurrency>GBP</targetCurrency>
+        <convertedAmount>430.0</convertedAmount>
+        <status>Success</status>
+    </transactions>
+    <transactions>
+        <amount>200.0</amount>
+        <originalCurrency>ABC</originalCurrency>
+        <targetCurrency>USD</targetCurrency>
+        <status>Invalid original currency code</status>
+    </transactions>
+    <transactions>
+        <amount>150.0</amount>
+        <originalCurrency>USD</originalCurrency>
+        <targetCurrency>XYZ</targetCurrency>
+        <status>Invalid target currency code</status>
+    </transactions>
+    <transactions>
+        <amount>300.0</amount>
+        <originalCurrency>GBP</originalCurrency>
+        <targetCurrency>INR</targetCurrency>
+        <convertedAmount>31194.0</convertedAmount>
+        <status>Success</status>
+    </transactions>
+    <transactions>
+        <amount>400.0</amount>
+        <originalCurrency>AUD</originalCurrency>
+        <targetCurrency>CAD</targetCurrency>
+        <convertedAmount>356.0</convertedAmount>
+        <status>Success</status>
+    </transactions>
+    <transactions>
+        <amount>145.0</amount>
+        <originalCurrency>CAD</originalCurrency>
+        <targetCurrency>USD</targetCurrency>
+        <convertedAmount>105.85</convertedAmount>
+        <status>Success</status>
+    </transactions>
+    <transactions>
+        <amount>500.0</amount>
+        <originalCurrency>CHF</originalCurrency>
+        <targetCurrency>AUD</targetCurrency>
+        <convertedAmount>845.0</convertedAmount>
+        <status>Success</status>
+    </transactions>
+    <transactions>
+        <amount>600.0</amount>
+        <originalCurrency>USD</originalCurrency>
+        <targetCurrency>CHF</targetCurrency>
+        <convertedAmount>546.0</convertedAmount>
+        <status>Success</status>
+    </transactions>
+    <transactions>
+        <amount>700.0</amount>
+        <originalCurrency>JPY</originalCurrency>
+        <targetCurrency>USD</targetCurrency>
+        <convertedAmount>4.55</convertedAmount>
+        <status>Success</status>
+    </transactions>
+    <transactions>
+        <amount>1500.0</amount>
+        <originalCurrency>BTC</originalCurrency>
+        <targetCurrency>INR</targetCurrency>
+        <status>Invalid original currency code</status>
+    </transactions>
+    <transactions>
+        <amount>2700.0</amount>
+        <originalCurrency>USD</originalCurrency>
+        <targetCurrency>123</targetCurrency>
+        <status>Invalid target currency code should not contains numbers</status>
+    </transactions>
+    <transactions>
+        <amount>3500.0</amount>
+        <originalCurrency>677</originalCurrency>
+        <targetCurrency>GBP</targetCurrency>
+        <status>Invalid original currency code should not contains numbers</status>
+    </transactions>
+</transactionList>
